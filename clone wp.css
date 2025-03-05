@@ -1,0 +1,1689 @@
+    /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* Body styles */
+body {
+  background-color: rgba(0, 0, 0, 0.877);
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.342);
+  border: 1px solid aqua;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  
+}
+
+/* Navbar logo */
+.navbar-logo a img {
+  height: 80px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+  
+  
+}
+
+
+/* Navbar menu */
+.navbar-menu {
+  display: flex;
+
+  
+}
+ 
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-left: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  margin-left: 20px;
+}
+/* .navbar-menu a{
+  margin-left: 60px;
+} */
+/* Hide the navbar menu by default on small screens */
+.navbar-menu {
+  display: flex;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Menu icon styles */
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: auto;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    width: 200px;
+    height:100% ;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    border-right: 2px solid rgb(2, 155, 155); 
+    position: fixed;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+    
+  }
+
+  .navbar-menu li {
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.534);
+    max-width: 16rem;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  /* Show the navbar menu when the checkbox is checked */
+  #menu-toggle:checked + .menu-icon + .navbar-menu {
+    display: block;
+  }
+}
+/*------------------ Explore our------------------ */
+h1 {
+  color: white;
+  font-size: 25px;
+  margin-top: 80px;
+  padding-left: 70px;
+}
+
+/*------------------ ProJects ------------------*/
+h2 {
+  color: white;
+  font-size: 80px;
+  margin-left: 70px;
+  border-bottom: 1px solid aqua;
+  max-width: 16rem; 
+}
+/*-------------- Get quote------------ */
+div10{
+  margin-left: 50px;
+}
+div10 :hover{
+  border: 10px solid aqua;
+}
+
+div10 button{
+  width: 130px;
+  height: 40px;
+    margin-right: 50px;
+    background-color: #111;
+    color: #fff;
+    border: 2px solid aqua;
+    border-radius: 40px;
+
+}
+ 
+ 
+/*------------------ WebDevelopment button------------------ */
+ .cotainer{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+ }
+ .iitemm{
+  /* width: 100px; */
+  /* height: 20px; */
+  display: inline-block;
+  background: lightseagreen;
+  color: white;
+  padding: 15px 30px;
+  margin: 20px 5px;
+  border-radius: 30px;
+  border: 0px solid aqua; 
+  /* font-size: px; */
+  
+  
+  
+ }
+ 
+ /*------------------ Blockchain------------------ */
+   .iiitemm{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 15px 30px;
+  margin: 20px 0;
+  border-radius: 30px;
+  border: 1px solid aqua;
+ }  
+ .iiitemm:hover{
+  background-color: lightseagreen;
+ }
+
+/*------------------ landing page option ------------------*/
+.asm{
+  /* display: inline; */
+  /* margin-left: 470px; */
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+/* justify-content: center; */
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+ }
+ .asm :hover{
+  background-color: aqua;
+  border: aqua;
+ }
+ 
+ button{
+  width: 100px;
+  height: 30px; 
+  background-color: white;
+   text-decoration: none;
+   border-color: white;
+   margin: 1px;
+  /* border: 1 solid white; */
+  /* border-radius:5px ; */
+ 
+ }
+ button a{
+  text-decoration: none;
+   color:  darkcyan;
+   
+ }
+ .iab{
+  border-top-left-radius:5px ;
+  border-bottom-left-radius:5px ;
+ }
+ .iaf{
+  background-color: aqua;
+  border: 2px solid aqua;
+  border-top-right-radius:5px ;
+  border-bottom-right-radius:5px ;
+ }
+ .iaf a{
+  color: white;
+  
+ }
+/*------------------  1ST LINE CARD ------------------*/
+.container{
+display: flex;
+ }
+ .item{
+color: white;
+width: 610px;
+height: 550px;
+/* border:2px solid lightcoral; */
+margin: -40px;
+background-color:lightcoral;
+margin-left: 60px;
+margin-top: 50px;
+border-radius: 30px;
+background-image: linear-gradient(rgb(219, 133, 133),rgb(10, 10, 10));
+
+ }
+ .item1{
+  color: white;
+  width: 610px;
+  height: 830px;
+  /* border: 2px solid rgb(120, 200, 226); */
+  margin: -40px;
+  background-color: rgb(120, 200, 226);
+  margin-left: 60px;
+  margin-top: 50px;
+  border-radius: 30px; 
+  background-image: linear-gradient(rgb(47, 131, 165),rgb(24, 23, 23));
+  transition: 1.05;
+   }
+  
+  /* -----------card p -------------- */
+.item p{
+    color: #fff;
+  font-size: 20px;
+  margin: 30px;
+  text-align: justify; 
+}
+.item1 p{
+  color: #fff;
+  font-size: 20px;
+  margin: 30px;
+  text-align: justify;
+}
+ 
+/* -------card img ----------- */
+
+.item .qwertyui{
+  margin-left: 33px;
+ } 
+ 
+/* ----1st card img-------- */
+ .item .i1{
+  width: 50px;
+} 
+.item1 .i1{
+   width: 583px;
+   border-radius: 300px;
+  margin-left: 15px; 
+}
+.item1 .i1:hover{
+  transform: scale(1.05);
+}
+ 
+/* --------view more------------ */
+lii a{
+  color: darkcyan;
+  font-size: 20px;
+  /* margin-left:250px ; */
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  margin-top: 15px;
+ 
+  
+}
+liii a{
+  color: darkcyan;
+  font-size: 20px;
+  /* margin-left:250px ; */
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+    margin-top: 20px;
+  
+}
+
+ 
+
+ /* --------2ND LINE CARD */
+ .containe{
+  display: flex;
+   }
+   .ite{
+  color: white;
+  width: 610px;
+  height: 810px;
+  /* border: 2px solid rgb(120, 200, 226); */
+  margin: -40px;
+  background-color:lightcoral;
+  margin-left: 60px;
+  margin-top: -220px;
+  border-radius: 30px;
+background-image: linear-gradient(rgb(219, 133, 133),rgb(10, 10, 10));
+   }
+   .ite2{
+    color: white;
+    width: 610px;
+  height: 830px;
+  /* border:2px solid rgb(46, 46, 194); */
+  margin: -40px;
+  background-color: rgb(120, 200, 226); 
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(47, 131, 165),rgb(24, 23, 23));
+    transition: 1.05;
+     }
+    
+   /*------------------ 2nd card img---------------- */
+   .ite img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 25px;
+   }
+   .ite2 img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 20px;
+   }
+   .ite img:hover{
+    transform: scale(1.05);
+   }
+   .ite2 img:hover{
+    transform: scale(1.05);
+   }
+    
+   /*------------------- 2nd card p--------------- */
+   .ite p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   .ite2 p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+    
+   /* ------------2nd card view more---------- */
+   liiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+ margin-top: 10px;
+  }
+  liiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+ margin-top: 10px;
+  }
+    
+    /* ------------3RD LINE CARD--------------- */
+ .contain{
+  display: flex;
+   }
+   .itt{
+  color: white;
+  width: 610px;
+  height: 880px;
+  /* border: 2px solidrgba(255, 192, 203, 0.514); */
+  margin: -40px;
+  background-color:skyblue;
+  margin-left: 60px;
+  margin-top: -240px;
+  border-radius: 30px;
+  background-image: linear-gradient(rgb(47, 131, 165),rgb(24, 23, 23));
+    transition: 1.05;
+   }
+   .itt3{
+    color: white;
+    width: 610px;
+  height: 860px;
+    /* border: 2px solid lightcoral; */
+    margin: -40px;
+    background-color:rgb(95, 66, 95);
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(158, 100, 158),rgb(29, 28, 28));
+     }
+   /* 3rd line card img */
+   .itt img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 20px;
+   }
+   .itt3 img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 20px;
+   }
+   .itt img:hover{
+    transform: scale(1.05);
+   }
+   .itt3 img:hover{
+    transform: scale(1.05);
+   }
+
+   /* 3rd line card p */
+   .itt p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   .itt3 p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   /* ----------3rd cards view more------------- */
+   liiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+  }
+  liiiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+  }
+
+ /* -------- 4 LINE CARD---------------- */
+ .contai{
+  display: flex;
+   }
+   .iem{
+  color: white;
+  width: 610px;
+  height: 730px;
+  /* border: 2px solid darkgoldenrod; */
+  margin: -40px;
+  background-color:skyblue;
+  margin-left: 60px;
+  margin-top: -220px;
+  border-radius: 30px;
+  background-image: linear-gradient(rgb(47, 131, 165),rgb(24, 23, 23));
+  transition: 1.05;
+   }
+   .iem4{
+    color: white;
+    width: 610px;
+  height: 860px;
+    /* border: 2px solid  lightcoral; */
+    margin: -40px;
+    background-color: skyblue;
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(47, 131, 165),rgb(24, 23, 23));
+    transition: 1.05;
+     }
+   /* 4rd card img */
+   .iem4 img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 20px;
+   }
+   .iem .i2{
+    width: 500px;
+    border-radius: 400px;
+    margin-left: 60px;
+   }
+   .iem img:hover{
+    transform: scale(1.05);
+   }
+   .iem4 img:hover{
+    transform: scale(1.05);
+   }
+   /* 4rd card p */
+   .iem p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    /* text-align: justify; */
+   }
+   .iem4 p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   /* ----------4 card view more----------- */
+   liiiiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+  }
+  liiiiiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+ margin-top: 10px;
+  }
+   
+   /* -------- 5 LINE CARD-------------- */
+ .conta{
+  display: flex;
+   }
+   .itm{
+  color: white;
+  width: 610px;
+  height: 750px;
+  /* border: 2px solid rgb(46, 46, 194); */
+  margin: -40px;
+  background-color:darkgoldenrod;
+  margin-left: 60px;
+  margin-top: -340px;
+  border-radius: 30px;
+  background-image: linear-gradient(darkgoldenrod,rgb(14, 13, 13));
+   }
+   .itm5{
+    color: white;
+    width: 610px;
+  height: 820px;
+    /* border: 2px solid rgb(46, 46, 194); */
+    margin: -40px;
+    background-color: darkgoldenrod;
+    margin-left: 60px;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-image: linear-gradient(darkgoldenrod,rgb(14, 13, 13));
+     }
+   /* ---------5 card img----- */
+   .itm5 img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 20px;
+   }
+   .itm .i3{
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 400px;
+   }
+   .itm5 img:hover{
+    transform: scale(1.05);
+   }
+   .itm img:hover{
+    transform: scale(1.05);
+   }
+   /* -------------5 card p ------------ */
+   .itm p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   .itm5 p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   /* -------------5 card view more----------- */
+   liiiiiiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+  }
+  liiiiiiiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+  }
+   /* -------- 6 LINE CARD ------------*/
+ .cont{
+  display: flex;
+   }
+   .tem{
+  color: white;
+  width: 610px;
+  height: 820px;
+  /* border: 2px solid lightcoral; */
+  margin: -40px;
+  background-color: rgb(158, 100, 158);
+  margin-left: 60px;
+  margin-top: 70px;
+  border-radius: 30px;
+  background-image: linear-gradient(rgb(158, 100, 158),rgb(29, 28, 28));
+   }
+    
+   /* 6 card img */
+   .tem img{
+    width: 570px;
+    border-radius: 400px;
+    margin-left: 20px;
+   }
+   .tem img:hover{
+    transform: scale(1.05);
+   }
+   /* 6 card p */
+   .tem p{
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+   }
+   /*----------------- 6 card view more---------------- */
+   liiiiiiiiiiii a{
+    color: darkcyan;
+    font-size: 20px;
+    /* margin-left:250px ; */
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+  }
+    
+   /* ------------------footer------------------ */
+   #nav{
+    height: 450px;
+    background-color: #111;
+  text-decoration: none;
+    
+    /* margin-top: -0px; */
+  }
+  /*------------------ footer p------------------ */
+  #nav p{
+    color: #ffffff6c;
+  margin-right: 920px;
+  padding: 30px;
+  text-decoration: none;
+
+  }
+/*------------------ footer Registered ------------------ */
+h4{
+  color: #fff;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-left: 30px;
+}
+.imgg{
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.img{
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+ /* footer location Contact Email */
+  
+ 
+ .na {
+  background-color: #111111fd;
+  margin-top: 100px;
+  
+}
+
+div100 { 
+  display: flex;
+  
+
+}
+
+.a1 {
+  margin-left: 80px;
+  color: #fff;
+}
+
+.a2 {
+  margin-left: 320px;
+  color: #fff;
+}
+
+.a3 {
+  margin-left: 300px;
+  color: #fff;
+}
+
+
+.a4 {
+  margin-top: 45px;
+  margin-left: -70px;
+  color: #ffffff77;
+  font-size: 18px;
+  
+}
+
+.a5 {
+  margin-top: 45px;
+  margin-left: -70px;
+  color: #ffffff77;
+  font-size: 18px;
+}
+
+.a6 {
+  margin-top: 45px;
+  margin-left: -50px;
+  color: #ffffff77;
+  font-size: 18px;
+}
+
+
+.a7 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.a8 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.a9 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+
+
+.na {
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0.356);
+  max-width: 101.2%; 
+}
+i{
+  color: aqua;
+  font-size: 30px;
+  margin: auto;
+}
+ii{
+  color: aqua;
+  font-size: 30px;
+  margin: auto;
+}
+iii{
+  color: aqua;
+  font-size: 30px;
+  margin: auto;
+}
+/* ------------------Quick - Links option------------ */
+.artakh pre{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: -380px;
+  border-bottom: 2px solid aqua;
+  max-width: 4rem;
+  text-decoration: none;
+}
+/*------------ home------------ */
+ie{
+  color: #ffffff5b;
+  font-size: 20px; 
+  margin-left: 450px;
+  margin-top: 50px;
+  text-decoration: none;
+
+}
+ 
+a .art{
+  color: #ffffff5b;
+  font-size: 20px;
+  
+
+}
+/*-------------- contant------------ */
+iee{
+  color: #ffffff5b;
+  font-size: 20px;
+  margin-left: 100px;
+  text-decoration: none;
+
+}
+/*------------- phone----------- */
+iei{
+  color: #ffffff5b;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: 20px;
+  text-decoration: none;
+
+}
+/*--------------- Services------------ */
+ieii{
+  color: #ffffff5b;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+/* --------------  Projects------------- */
+iy{
+  color: #ffffff5b;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: 20px;
+  text-decoration: none;
+
+}
+/* ------------h3 What people say------------ */
+h3{
+  color: #fff;
+  margin-left: 450px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+/* -------------img--------------- */
+.azmeer img{
+  margin-left: 450px;
+  margin-top: 20px;
+}
+/* --------------social link ----------------- */
+.it pre{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 950px;
+  margin-top: -380px;
+  border-bottom: 2px solid aqua;
+  max-width: 4rem;
+}
+ 
+  
+ .boxe a {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease ;
+  font-size: 30px;
+  
+}
+.box13{
+   margin-top: 20px;
+   margin-left: 950px;
+}
+/* -----------copy right ---------------- */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px !important;
+  margin: 20px;
+  
+}
+
+.footer-bottom p {
+  color: #ffffff5b;
+}
+
+spa {
+  color: rgba(0, 255, 255, 0.418);
+}
+/* -----------wrapp----------- */
+  h5{
+  color: #fff;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-style:inherit ;
+}
+/*---------------- media location Contact Email------------------ */
+
+@media only screen and (max-width: 1226px){
+  div100{
+flex-direction: column;
+  }
+  i{
+    color: aqua;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 10px;
+  }
+  ii{
+    color: aqua;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 10px;
+  }
+  iii{
+    color: aqua;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 10px;
+  }
+  .a4 {
+    margin-top: 0px;
+    margin-left: 40px;
+    color: #ffffff77;
+    font-size: 18px;
+    
+  }
+  
+  .a5 {
+    margin-top: 0px;
+    margin-left: 40px;
+    color: #ffffff77;
+    font-size: 18px;
+  }
+  
+  .a6 {
+    margin-top: 0px;
+    margin-left: 40px;
+    color: #ffffff77;
+    font-size: 18px;
+  }
+  .a7 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top:  -40px;
+}
+.a8 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 45px;
+  margin-top:  -40px;
+}
+.a9 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 45px;
+  margin-top:  -40px;
+  
+}
+.a3 {
+  margin-left: 0px;
+  color: #fff;
+}
+.a2 {
+  margin-left: 0px;
+  color: #fff;
+}
+.a1 {
+  margin-left: 0px;
+  color: #fff;
+}
+
+/* -------icons---------- */
+.boxe a {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease ;
+  font-size: 30px;
+  
+}
+.box13{
+   margin-top: 20px;
+   margin-left: 800px;
+}
+.it pre{
+  margin-left: 800px;
+}
+
+ 
+
+
+}
+/* ----------icons down in  column */
+@media only screen and (max-width: 1023px){
+/* -------icons---------- */
+.boxe a {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease ;
+  font-size: 30px;
+  
+}
+.box13{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.it pre{
+  margin-left: 30px;
+  margin-top: 100px;
+}
+/* ----------#nav footer backgroundcolor */
+#nav{
+  height: 1100px;
+  /* width: 114%; */
+}
+/* --------Quick - Links---------- */
+.artakh pre{
+  margin-top:60px;
+  margin-left: 30px;
+}
+/*------------ home------------ */
+ie{
+  margin-left:40px;
+  margin-top: 30px;
+}
+ 
+/*-------------- contant------------ */
+iee{
+  margin-left: 100px;
+}
+/*------------- phone----------- */
+iei{
+  margin-left: 40px;
+}
+/*--------------- Services------------ */
+ieii{
+  margin-left: 100px;
+}
+/* --------------  Projects------------- */
+iy{
+  margin-left: 40px;
+}
+/* ------------h3 What people say------------ */
+h3{
+  margin-left: 40px;
+}
+/* -------------img--------------- */
+.azmeer img{
+  margin-left: 40px;
+}
+/*--------------- footer text--------------- */
+#nav p{
+  color: #ffffff6c;
+margin-right: 710px;
+ width: 70%;
+padding: 30px;
+}
+/* footer */
+.containerrr{
+  width:auto;
+}
+}
+ 
+
+ 
+/*--------------  media query footer---------- */
+@media only screen and (max-width: 1535px){
+   
+  
+   /*------ cards -----------*/
+     .item{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+      margin-top: 50px;
+      border-radius: 30px;
+     }
+     .item1{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+      margin-top: 50px;
+      border-radius: 30px;
+       }
+       .item p{
+        font-size: 2vw;
+       }
+       .item1 p{
+        font-size: 2vw;
+       }
+     /* 2ND LINE CARD */
+     .ite{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+       margin-top: -20%; 
+      border-radius: 30px;
+       }
+ 
+       .ite2{
+        color: white;
+        width: 46.4%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 30px;
+         }
+.ite p{
+  color: #fff;
+  font-size: 2vw;
+  /* margin: 30px; */
+  /* text-align: center; */
+  /* flex-wrap: wrap; */
+}
+.ite2 p{
+  font-size: 2vw;
+}
+
+       /* 3RD LINE CARD */
+     .itt{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+      margin-top: -22%;
+      border-radius: 30px;
+       }
+       .itt3{
+        color: white;
+        width: 46.4%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 30px;
+         }
+         .itt p{
+          font-size: 2vw;
+         }
+         .itt3 p{
+          font-size: 2vw;
+         }
+        /* 4 LINE CARD */
+     .iem{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+      margin-top: -20%;
+      border-radius: 30px;
+       }
+       .iem4{
+        color: white;
+        width: 46.4%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 30px;
+         }
+         .iem p{
+          font-size: 2vw;
+         }
+         .iem4 p{
+          font-size: 2vw;
+         }
+        /* 5 LINE CARD */
+     .itm{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+      margin-top: -36%;
+      border-radius: 30px;
+       }
+       .itm5{
+        color: white;
+        width: 46.4%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 30px;
+        margin-top: 35px;
+        border-radius: 30px;
+         }
+         .itm p{
+          font-size: 2vw;
+         }
+         .itm5 p{
+          font-size: 2vw;
+         }
+        /* 6 LINE CARD */
+     .tem{
+      color: white;
+      width: 46.4%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 30px;
+      margin-top: 30px;
+      border-radius: 30px;
+       }
+       .tem p{
+        font-size: 2vw;
+       }
+      
+         /*------------------ Explore our------------------ */
+h1 {
+  color: white;
+  font-size: 4vw;
+  margin-top: 80px;
+  padding-left: 70px;
+}
+
+/*------------------ ProJects ------------------*/
+h2 {
+  color: white;
+  font-size: 8vw;
+  margin-left: 70px;
+  border-bottom: 1px solid aqua;
+  max-width: 27vw; 
+}
+
+     /*--------------- footer text--------------- */
+     #nav p{
+      color: #ffffff6c;
+    width: 370px;
+    padding: 30px;
+    }
+    
+     /* -------card img ----------- */
+.item .qwertyui{
+  width: 92%;
+  height: 60%;
+  margin-left: 20px;
+}
+/* ----1st card img---------- */
+.item1 .i1{
+  width: 95%;
+  /* margin-left: 50px; */
+}
+/* --------------2nd card--------------- */
+.ite img{
+  width: 92%;
+}
+.ite2 img{
+  width: 92%;
+}
+/*----------- 3rd line card img------------------ */
+.itt img{
+  width: 92%;
+}
+.itt3 img{
+  width: 92%;
+}
+/*----------------4 card img  ----------------------*/
+      .iem4 img{
+        width: 92%; 
+      }
+      .iem .i2{
+        width: 80%;
+        height: 50%;
+        margin-left: 50px;
+      }
+      /*-------------- 5 card img--------------  */
+      .itm5 img{
+        width: 94%; 
+      }
+      .itm .i3{
+        width: 80%;
+        margin-left: 50px;
+      }
+      /* 6 card img */
+      .tem img{
+        width: 94%;
+      }
+      .tem6 img{
+        width: 94%;
+      }
+      .na {
+
+        border-bottom: 2px solid rgba(255, 255, 255, 0.356);
+        max-width: 100%; 
+      }
+ 
+} 
+@media only screen and (max-width: 926px){
+ #nav{
+  height: 400%;
+ }
+ 
+}
+@media only screen and (max-width: 767px){
+  /*--------------------- navbar home PROJECT etc -----------------*/
+  .navbar{
+    width: 100%;
+  }
+  /*------------- 1st line card ---------*/
+  .container{
+    flex-direction: column;
+     }
+     .item{
+    color: white;
+    width: 93%;
+    height: 10%;
+    margin: -10px;
+    margin-left: 28px;
+    margin-top: 30px;
+    border-radius: 30px;
+    
+     } 
+     .item1{
+      color: white;
+      width: 93%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 28px;
+      margin-top: 30px;
+      border-radius: 30px;
+      
+       } 
+       .item p{
+        font-size: 20px;
+       }
+       .item1 p{
+        font-size: 20px;
+       }
+     /* 2ND LINE CARD */
+     .containe{
+      flex-direction: column;
+       }
+       .ite{
+        color: white;
+        width: 93%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 28px;
+        margin-top: 30px;
+        border-radius: 30px;
+      
+       } 
+       .ite2{
+        color: white;
+        width: 93%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 28px;
+        margin-top: 30px;
+        border-radius: 30px;
+      
+       } 
+       .ite p{
+        font-size: 20px;
+       }
+       .ite2 p{
+        font-size: 20px;
+       }
+        /* 3RD LINE CARD */
+     .contain{
+      flex-direction: column;
+       }
+       .itt{
+      color: white;
+      width: 93%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 28px;
+      margin-top: 30px;
+      border-radius: 30px;
+      
+       } 
+       .itt3{
+        color: white;
+        width: 93%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 28px;
+        margin-top: 30px;
+        border-radius: 30px;
+        
+         } 
+         .itt p{
+          font-size: 20px;
+         }
+         .itt3 p{
+          font-size: 20px;
+         }
+       /* 4 LINE CARD */
+     .contai{
+      flex-direction: column;
+       }
+       .iem{
+      color: white;
+      width: 93%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 28px;
+      margin-top: 30px;
+      border-radius: 30px;
+      
+       } 
+       .iem4{
+        color: white;
+        width: 93%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 28px;
+        margin-top: 30px;
+        border-radius: 30px;
+        
+         } 
+         .iem p{
+          font-size: 20px;
+         }
+         .iem4 p{
+          font-size: 20px;
+         }
+        /* 5 LINE CARD */
+     .conta{
+      flex-direction: column;
+       }
+       .itm{
+      color: white;
+      width: 93%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 28px;
+      margin-top: 30px;
+      border-radius: 30px;
+      
+       } 
+       .itm5{
+        color: white;
+        width: 93%;
+        height: 10%;
+        margin: -10px;
+        margin-left: 28px;
+        margin-top: 30px;
+        border-radius: 30px;
+        
+         } 
+         .itm p{
+          font-size: 20px;
+         }
+         .itm5 p{
+          font-size: 20px;
+         }
+        /* 6 LINE CARD */
+     .cont{
+      flex-direction: column;
+       }
+       .tem{
+      color: white;
+      width: 93%;
+      height: 10%;
+      margin: -10px;
+      margin-left: 28px;
+      margin-top: 30px;
+      border-radius: 30px;
+      
+       } 
+       .tem p{
+        font-size: 20px;
+       } 
+     /*------------ footer background color ------------*/
+     #nav{
+      width: 101.5%;
+     }
+     /*---------- footer location Contact Email background color------------ */
+     .na{
+      width: auto;
+     }
+     .na {
+
+      border-bottom: 2px solid rgba(255, 255, 255, 0.356);
+      max-width: 101.3%; 
+    }
+    
+}
+@media only screen and (max-width:500px){
+  .navbar{
+  margin-left: 20px;
+  width: 92%;
+  }
+  
+}
+@media only screen and (max-width:425px){
+  
+  .item{
+  margin-left: 15px;
+    
+     } 
+     .item1{
+      margin-left: 15px;
+      
+       } 
+     /* 2ND LINE CARD */
+      
+       .ite{
+        margin-left: 15px;
+      
+       } 
+       .ite2{
+        margin-left: 15px;
+      
+       } 
+        /* 3RD LINE CARD */
+     
+       .itt{
+        margin-left: 15px;
+      
+       } 
+       .itt3{
+        margin-left: 15px;
+        
+         } 
+       /* 4 LINE CARD */
+      
+       .iem{
+        margin-left: 15px;
+      
+       } 
+       .iem4{
+        margin-left: 15px;
+        
+         } 
+        /* 5 LINE CARD */
+      
+       .itm{
+        margin-left: 15px;
+      
+       } 
+       .itm5{
+        margin-left: 15px;
+        
+         } 
+        /* 6 LINE CARD */
+      
+       .tem{
+        margin-left: 14px;
+      
+       } 
+ 
+         /*------------------ Explore our------------------ */
+h1 {
+  color: white;
+   
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+/*------------------ ProJects ------------------*/
+h2 {
+  color: white;
+  
+  margin-left: 30px;
+    
+}
+#nav p{
+  color: #ffffff6c;
+/* margin: 10px; */
+/* padding: 30px; */
+/* text-decoration: none; */
+width: 80%;
+}
+          
+}
+@media only screen and (max-width:375px){
+.navbar{
+  width:88% ;
+}
+}
+
+@media only screen and (max-width:320px){
+  /*-------------- contant------------ */
+iee{
+  margin-left: 50px;
+}
+#nav p{
+  margin-left: -10px;
+}
+#nav .imgg{
+  margin-left: 22px;
+}
+#nav h4{
+  margin-left: 22px;
+}
+
+/*--------------- Services------------ */
+ieii{
+  margin-left:50px;
+}
+}
+@media only screen and (max-width:826x){
+  div10 button{
+    margin-right: 5%;
+  }
+}
+/*----------- media navbar img ---------------*/
+@media only screen and (max-width:820px) {
+  div10 button{
+    width: 100px;
+    display:none;
+  }
+}
+@media only screen and (max-width: 1535px){
+  .na{
+    width: 2000%;
+  }
+  
+ }
